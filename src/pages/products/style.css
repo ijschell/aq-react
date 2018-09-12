@@ -1,0 +1,81 @@
+#productsPage .banner{
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#productsPage h2{
+    margin: 30px 0;
+    font-size: 30px;
+    color: #333;
+}
+#productsPage .productList .product{
+    margin-bottom: 30px;
+}
+#productsPage .productList .product .button{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: rgba(255,255,255,0.5);
+    position: absolute;
+    top: calc(350px - 50px);
+    right: 0;
+}
+#productsPage .productList .product .button span:first-child{
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 1px);
+    width: 2px;
+    background: #777;
+    height: 30px;
+}
+#productsPage .productList .product .button span:last-child{
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 1px);
+    width: 2px;
+    background: #777;
+    height: 30px;
+    transform: rotate(90deg);
+    transition: all 0.5s ease;
+}
+#productsPage .productList .product .button.active span:first-child{
+    transform: rotate(90deg);
+}
+#productsPage .productList .product .slider{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 15px;
+}
+#productsPage .productList .product .slider .image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+#productsPage .productList .product h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#productsPage .productList .product .content{
+    color: #333;
+    line-height: 24px;
+    height: 90px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+#productsPage .productList .product .content.active{
+    height: initial;
+}
+#productsPage .productList .product .content p{
+    margin-bottom: 15px;
+}
+#productsPage .productList .product .content p strong{
+    font-weight: 700;
+}

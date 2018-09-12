@@ -1,0 +1,395 @@
+/* BANNER */
+#banner{
+    height: 75vh;
+    background-image: url('/images/water-768745_1280.jpg');
+    /* background-image: url('/images/IMG-20180703-WA0022.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+#banner .overlay{
+    display: block;
+    /* background-color: rgba(208, 125, 77, 0.34) */
+    background-color: initial;
+}
+#banner .center{
+    margin: auto;
+    display: block;
+}
+#banner h1{
+    text-indent: -10000px;
+    line-height: 0;
+}
+#banner img{
+    width: 40vw;
+}
+@media(max-width: 512px){
+    #banner{
+        height: 60vh;
+    }
+    #banner img{
+        width: 80vw;
+    }
+}
+
+
+/* QUIENES SOMOS */
+
+#quienesSomos{
+    padding: 150px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#quienesSomos .padding{
+    padding: 0 50px;
+}
+#quienesSomos h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 300;
+    /* text-shadow: 0 0 2px #000; */
+}
+#quienesSomos .content{
+    font-size: 20px;
+    color: #333;
+    line-height: 35px;
+    /* text-shadow: 0 0 2px #000; */
+}
+#quienesSomos .content p:nth-child(1){
+    margin-bottom: 30px;
+}
+#quienesSomos .content p:nth-child(2), #quienesSomos .content p:nth-child(3){
+    display: none;
+}
+#quienesSomos .content a{
+    color: #4c493b;
+    text-decoration: none;
+    font-weight: 700;
+}
+#quienesSomos .content strong{
+    font-weight: 700;
+}
+#quienesSomos .content a:after{
+    content: '>';
+    margin-left: 5px;
+}
+#quienesSomos .imageRight{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -150px 0;
+    position: relative;
+}
+#quienesSomos .imageRight .centerContent{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#quienesSomos .imageRight .centerContent .center{
+    margin: auto;
+    text-align: center;
+}
+#quienesSomos .imageRight .centerContent .center p{
+    /* font-weight: 700; */
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#quienesSomos .imageRight .centerContent .center p i{
+    font-style: italic;
+    color: #fff;
+    font-size: 21px;
+    /* font-weight: 700; */
+}
+#quienesSomos .imageRight .centerContent .center a{
+    display: table;
+    border: solid 2px #fff;
+    padding: 15px 25px;
+    margin: auto;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background: transparent;
+    transition: all 0.5s ease;
+}
+#quienesSomos .imageRight .centerContent .center a:hover{
+    background: rgba(255,255,255,0.2);
+}
+
+/*NUESTROS PRODUCTOS*/
+#nuestrosProductos{
+    padding: 150px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#nuestrosProductos .padding{
+    padding: 0 50px;
+}
+#nuestrosProductos h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: 0 0 2px #000;
+}
+#nuestrosProductos .content{
+    font-size: 20px;
+    color: #fff;
+    line-height: 35px;
+    text-shadow: 0 0 2px #000;
+}
+#nuestrosProductos .content p:nth-child(1){
+    margin-bottom: 30px;
+}
+#nuestrosProductos .content p:nth-child(2), #nuestrosProductos .content p:nth-child(3){
+    display: none;
+}
+#nuestrosProductos .content a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    text-align: right;
+}
+#nuestrosProductos .content strong{
+    font-weight: 700;
+}
+#nuestrosProductos .content a:after{
+    content: '>';
+    margin-left: 5px;
+}
+#nuestrosProductos .imageRight{
+    background: #fff;
+    margin: -150px 0;
+    position: relative;
+    text-shadow: initial !important;
+}
+#nuestrosProductos .imageRight h2{
+    text-shadow: initial !important;
+}
+#nuestrosProductos .imageRight .centerContent{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#nuestrosProductos .imageRight .centerContent .center{
+    margin: auto;
+    text-align: left;
+}
+#nuestrosProductos .imageRight .centerContent .center h2{
+    color: #333;
+}
+#nuestrosProductos .imageRight .centerContent .center p{
+    /* font-weight: 700; */
+    color: #333;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+#nuestrosProductos .imageRight .centerContent .center p:last-child{
+    margin-bottom: 0;
+}
+#nuestrosProductos .imageRight .centerContent .center p i{
+    font-style: italic;
+    color: #444;
+    font-size: 21px;
+    /* font-weight: 700; */
+}
+#nuestrosProductos .content a{
+    display: table;
+    border: solid 2px #fff;
+    padding: 10px 25px;
+    margin: auto;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background: transparent;
+    transition: all 0.5s ease;
+    font-weight: 400;
+}
+#nuestrosProductos .content a:hover{
+    background: rgba(255,255,255,0.2);
+}
+
+@media(max-width: 760px){
+    #quienesSomos{
+        padding: 150px 0 0 0;
+    }
+    #quienesSomos .imageRight{
+        margin: 0;
+    }
+    #quienesSomos .imageRight .centerContent{
+        position: relative;
+        padding: 85px 0;
+    }
+    #nuestrosProductos .padding, #quienesSomos .padding{
+        padding: 0;
+    }
+    #nuestrosProductos h2, #quienesSomos h2{
+        font-size: 30px;
+    }
+    #nuestrosProductos{
+        padding: 0 0 150px 0;
+    }
+    #nuestrosProductos .imageRight{
+        margin: 0;
+    }
+    #nuestrosProductos .imageRight .centerContent{
+        position: relative;
+        padding: 85px 0;
+    }
+    #nuestrosProductos .xspadding{
+        padding-top: 85px;
+    }
+}
+#banner .contetLogotipo{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: table;
+    transform: translateY(-50%);
+}
+#banner .contetQuienesSomos{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    width: 350px;
+    height: 350px;
+    background: #005961;
+    border-radius: 100%;
+    display: table;
+    transform: translateY(-50%);
+    text-align: center;
+    transition: all 0.5s ease;
+    z-index: 10;
+}
+#banner .contetQuienesSomos h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+#banner .contetQuienesSomos div{
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+#banner .contetTrabajoOur{
+    position: absolute;
+    top: 50%;
+    right: calc(30% - 220px);
+    width: 250px;
+    height: 250px;
+    background: #446eaf;
+    border-radius: 100%;
+    display: table;
+    transform: translateY(-50%);
+    text-align: center;
+    transition: all 0.5s ease;
+    z-index: 5;
+}
+#banner .contetTrabajoOur h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+#banner .contetTrabajoOur div{
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+#banner .contetTrabajoOur div a{
+    color: #005961;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    display: block;
+}
+#banner .menu{
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-650px);
+}
+#banner .menu li{
+    display: inline-block;
+    margin: 0 20px;
+}
+#banner .menu li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    background: transparent;
+    padding: 10px 20px;
+}
+#banner .menu li a:hover{
+    background: #fff;
+    color: #94d3dc;
+}a
+@media(max-width: 1024px){
+    #banner img{
+        width: 34vw;
+    }
+    #banner .contetQuienesSomos{
+        transform: scale(0.9) translateY(-50%);
+    }
+    #banner .menu{
+
+    }
+}
+@media(max-width: 768px){
+    #banner .contetLogotipo{
+        left: 5%;
+    }
+    #banner .contetQuienesSomos{
+        right: 10%;
+    }
+    #banner .contetTrabajoOur{
+        display: none;
+    }
+}
+@media(max-width: 560px){
+    #banner .contetLogotipo{
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #banner img{
+        width: 80vw;
+    }
+    #banner .contetQuienesSomos{
+        display: none;
+    }
+}

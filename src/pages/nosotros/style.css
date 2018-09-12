@@ -1,0 +1,22 @@
+#sobreNosotros .banner{
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#sobreNosotros h2{
+    margin: 30px 0;
+    font-size: 30px;
+    color: #333;
+}
+#sobreNosotros .description{
+    font-size: 20px;
+    line-height: 40px;
+}
+#sobreNosotros .description p{
+    margin-bottom: 30px;
+}
+#sobreNosotros .description p:last-child{
+    /* margin-bottom: 0px; */
+}
